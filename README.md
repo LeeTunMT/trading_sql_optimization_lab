@@ -1,7 +1,7 @@
-# Title: Trading SQL Optimization Lab 
+# Trading SQL Optimization Lab 
 ## Dataset: use stock market dataset on kaggle. This a historical daily prices of nasdaq-trades stoke and ETLs 
 This datasets contain historical daily prices for all tickers currently trading on nasdaq 
-(link [https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset]) 
+[LINK](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset)
 
 The date for every symbol is saved in CSV format with common fields:
     Date - specifies trading date
@@ -47,6 +47,6 @@ Info of meta data (in symbols_valid_meta.csv file): https://www.nasdaqtrader.com
     NextShares: 
 
 
-Summary: check data -> tạo schema (tạo database postgres docker -> tạo 2 bảng dim )
+Summary: check data -> create schema (create database postgres docker -> create 2 dim-fact table )
 
 
